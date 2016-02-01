@@ -123,6 +123,7 @@
  meansandstdevs<-df
  groupedmeansandstdevs<-sa
  
+ write.table(groupedmeansandstdevs,"groupedmeansandstdevs.txt",row.names=FALSE)
  
  ##clean up workspace
  rm(list=c("activities", "features", "testlabels", "testset", "df", "sa", "testsubjects",

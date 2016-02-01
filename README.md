@@ -13,7 +13,7 @@ prepared by the Smartlab - Non Linear Complex Systems Laboratory in Genoa, Italy
 This dataset is provided in the getdata-projectfiles-UCI HAR Dataset.zip file in this repo.  It can also be retrieved from  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Please refer to the README.txt file inside the zip folder for the data owners' conditions of use.
 
 The source dataset contains accelerometer measurements taken from a Samsung Galaxy S smartphone while the wearer 
-undertook six physical activities. Data for 30 subjects is available. Some data are mean and standard deviations calculations of other observations. Data is split between training and test sets
+undertook six physical activities. Data for 30 subjects is available. Some data are mean and standard deviation calculations of other observations. Data is split between training and test sets
 
 ##PROCESSING
 The run_analysis.R file extracts and presents the mean and stdev data in two tidy datasets:
@@ -35,6 +35,8 @@ Required setup for run_analysis.R:
 *meansandstdevs.csv  -- a tidied dataset derived from the source data, an output of run_analysis.R
 
 *groupedmeansandstdevs.csv  -- a tidied dataset derived from the source data, an output of run_analysis.R
+
+*groupedmeansandstdevs.txt  -- a text version of above file
 
 *getdata-projectfiles-UCI HAR Dataset.zip -- the unprocessed source data
 

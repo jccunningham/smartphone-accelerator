@@ -61,7 +61,8 @@ This results in a table of data as seen in the meansandstdevs.csv file.
 
 5.The processed table is then grouped by subject and activity and the mean of each observations is calculated for each group.   
 
-This results in a table of data as seen in the groupedmeansandstdevs.csv file.
+This results in a table of data as seen in the groupedmeansandstdevs.csv file. The script writes this data to your working directory as a text file.
+
 
 The comments in the run_analysis.R file identify each of these stages.
 
